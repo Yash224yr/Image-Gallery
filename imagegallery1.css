@@ -43,6 +43,9 @@
     overflow: hidden;
     z-index: 1;
 }
+.section a:hover{
+    color: black;
+}
 .section a::before{
     left: -100%;
 }
@@ -110,13 +113,11 @@
     height: 350px;
     width: 350px;
     border-radius: 50%;
-    z-index: 1;
     top: -242px;
     left: -336px;
     background-color: red;
     transition: 0.5s;
     z-index: -1;
-    color: black;
 }
 .section4 a:hover::before{
     transform: scale(2.2);

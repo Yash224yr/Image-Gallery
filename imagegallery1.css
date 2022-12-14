@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    height: 70vh;
+    width: 80%;
+    background-color: white;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    line-height: 3rem;
+}
+.section{
+    width: 50%;
+    text-align: center;
+    border: 1px solid;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section a{
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    padding: 5px 65px;
+}
